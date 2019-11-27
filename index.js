@@ -1,4 +1,4 @@
-function formGrauss(){
+function formGraus(){
  var p = (document.getElementById('forPO').value);
  var pL = (document.getElementById('forPL').value);
  var f = (document.getElementById('forFO').value);
