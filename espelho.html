@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Espelho</title>
+  <link rel="stylesheet" href="./estilo-espelho.css" />
+
+  <script type="text/javascript" src="./index.js"></script>
+  <link rel="icon" href="./img/keanu.ico" />
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h2 class="titulo">Espelho</h2>
+    </div>
+
+  </header>
+
+
+  <div class="tt1">
+    Insira aqui seu valores:
+    <input type="text" id="forPO" name="ftemp" size="7" onchange="formGrauss()" />
+
+
+    <input type="text" id="forPL" name="ctemp" size="7" onchange="formGrauss()" />
+
+
+
+    <input type="text" id="forFO" name="ktemp" size="7" onchange="formGrauss()" />
+
+
+  </div>
+
+  <div class="tt2">
+    Insira aqui seu valores:
+    <input type="text" id="F1" name="ftemp" size="7" onchange="auLinear()" />
+
+
+    <input type="text" id="F2" name="ctemp" size="7" onchange="auLinear()" />
+
+
+
+    <input type="text" id="F3" name="ktemp" size="7" onchange="auLinear()" />
+
+
+  </div>
+
+
+  <div class="tt3">
+    Insira aqui seu valores:
+    <input type="text" id="A1" name="ftemp" size="7" onchange="auLinear2()" />
+
+
+    <input type="text" id="A2" name="ctemp" size="7" onchange="auLinear2()" />
+
+
+
+    <input type="text" id="A3" name="ktemp" size="7" onchange="auLinear2()" />
+
+
+  </div>
+
+
+
+  <br /><br />
+
+  <input class="botao" type="button" value="Limpar para nova conversão" onclick="clearAll();">
+
+  </form>
+
+
+</body>
+
+</html>
